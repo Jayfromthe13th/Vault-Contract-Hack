@@ -28,8 +28,7 @@ There are three main contracts associated with this project.
 
 
 
----The first contract is a simplistic version of a vault contract. A user can deposite, earn, and withdraw funds from this contract. The vault contract has been created with many bugs within the code. This is for educational purposes. The two main expoits that will be emphazised are reentrnancy, and draining funds though flashloan attack. 
-
+---The first contract is a simplistic version of a vault contract. A user can deposite, earn, and withdraw funds from this contract. The vault contract has been created with many bugs within the code. This is for educational purposes. The two main expoits that will be emphazised are reentrancy, and draining funds though flashloan attack.  🤬
 
 ---The rentrancy contract will be used to attack the vault contract and will drain all the funds. A malicous actor will call the withdraw function in the vault contract before the balance is updated. Which will evenrtually lead to complete depletion of funds for vault contract
 
@@ -37,17 +36,7 @@ There are three main contracts associated with this project.
 
 ## Vault
 
-A few of the things you can do with GitPoint:
-
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+Warning!! ⚠️⚠️This contract is susceptinle to hacks.There are many bugs within this code. The main objective is to drain all the funds within the given contract. Therefore, we will be using reetrancy and a flashloan atack.This is for educational purposes.⚠️⚠️
 
 
 
