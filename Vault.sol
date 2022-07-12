@@ -58,6 +58,9 @@ contract Vault {
         investor.amount -= amount_to_withdraw;
         emit Withdrawn(msg.sender, msg.value);
     }
+      function getBalance(uint amount) public view returns (uint) {
+       return address(this.balance);
+    }
     
     receive() external payable {}
 
