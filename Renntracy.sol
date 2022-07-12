@@ -21,6 +21,8 @@ contract Attack {
 //vault.depositFunds.value(1 ether)();
         vault.withdraw();
     }
-
+  function getBalance(uint amount) public view returns (uint) {
+       return address(this.balance);
+    }
 
 }
